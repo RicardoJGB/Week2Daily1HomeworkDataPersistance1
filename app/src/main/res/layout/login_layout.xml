@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Back_To_Main"
+        android:onClick="Clickity"/>
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Full_Name"/>
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Phone_Number"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Email_Address"/>
+
+    <EditText
+        android:id="@+id/etSkypeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Skype_ID"/>
+
+    <EditText
+        android:id="@+id/etFbUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Fb_User"/>
+
+    <Button
+        android:id="@+id/btnIntoDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Into_DB"
+        android:onClick="Clickity"/>
+
+</LinearLayout>
